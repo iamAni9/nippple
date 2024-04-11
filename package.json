@@ -1,7 +1,7 @@
 {
   "homepage": "http://iamAni9/nippple",
   "name": "internship-project",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
