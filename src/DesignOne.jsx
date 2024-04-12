@@ -6,7 +6,7 @@ function DesignOne() {
         <div className='w-fit h-screen grid-cols-12 sm:grid hidden'>
             <div className='col-span-5 bg-[#ffa892] flex flex-col justify-center items-center'>
                 <h1 className='text-4xl mb-3 font-extrabold font-custom_2'>Discover the world's top<br />Designer & Creatives.</h1>
-                <img src="./images/bg3.png" width={400} height={400} alt="" srcset=""/>
+                <img src="./Images/bg3.png" width={400} height={400} alt="" srcset=""/>
             </div>
             <div className='col-span-7 flex flex-col items-center pt-5 grid-rows-12'>
                 <div className='row-span-2 w-full flex justify-end pr-3'>

@@ -12,14 +12,14 @@ function App() {
   return (
     <>
       <Navbar name="Hello"/>
-      <Router basename="/nippple">
+      {/* <Router basename="/nippple"> */}
         <Routes>
-          <Route path="/" element={<DesignOne />} />
-          <Route path="/DesignTwo" element={<DesignTwo />} />
-          <Route path="/DesignThree" element={<DesignThree />} />
-          <Route path="/DesignFour" element={<ImageCard />} />
+          <Route path="nippple/" element={<DesignOne />} />
+          <Route path="nippple/DesignTwo" element={<DesignTwo />} />
+          <Route path="nippple/DesignThree" element={<DesignThree />} />
+          <Route path="nippple/DesignFour" element={<ImageCard />} />
         </Routes>
-      </Router>
+      {/* </Router> */}
     </>
   )
 }

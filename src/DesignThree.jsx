@@ -9,9 +9,9 @@ function DesignThree() {
           <h1 className='sm:text-5xl text-4xl font-semibold'>What brings you to Nippple?</h1>
           <p className='mt-5 text-gray-600'>Select the options that best describe you. Don't worry, you can explore other options later.</p>
           <div className='sm:grid grid-cols-12 gap-10 sm:mt-16'>
-            <div className='col-span-4'><ImageCard image={"./images/designer.png"} text={"I am a designer looking to share my work"} desc={"Nippple offers a vibrant community and an ideal space to display and discuss design work."}/></div>
-            <div className='col-span-4'><ImageCard image={"./images/bg3.png"} text={"I am looking to hire a designer"} desc={"Explore Nippple to discover top talent and bring fresh creativity on board."}/></div>
-            <div className='col-span-4'><ImageCard image={"./images/interior_office.jpg"} text={"I am looking for design inspiration"} desc={"With over 7 million shots from a vast community of designers, Nippple is the leading source for design inspiration."}/></div>
+            <div className='col-span-4'><ImageCard image={"./Images/designer.png"} text={"I am a designer looking to share my work"} desc={"Nippple offers a vibrant community and an ideal space to display and discuss design work."}/></div>
+            <div className='col-span-4'><ImageCard image={"./Images/bg3.png"} text={"I am looking to hire a designer"} desc={"Explore Nippple to discover top talent and bring fresh creativity on board."}/></div>
+            <div className='col-span-4'><ImageCard image={"./Images/interior_office.jpg"} text={"I am looking for design inspiration"} desc={"With over 7 million shots from a vast community of designers, Nippple is the leading source for design inspiration."}/></div>
           </div>
           <div className='text-lg font-semibold'>Anything else? You can select multiple</div>
           <button type="button" className="text-white bg-[#FE6843] hover:bg-[#f7542c] font-medium rounded-lg text-sm px-5 py-2.5 mt-7 sm:w-[26%] w-[40%]">Finish</button>
